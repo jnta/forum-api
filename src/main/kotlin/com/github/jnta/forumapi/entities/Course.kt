@@ -2,8 +2,8 @@ package com.github.jnta.forumapi.entities
 
 import com.github.jnta.forumapi.enums.Category
 
-data class Course (
+data class Course(
     val id: Long? = null,
-    val name: String,
-    val category: Category,
+    var name: String,
+    var category: Category,
 )
